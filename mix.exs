@@ -4,7 +4,7 @@ defmodule Highlander.MixProject do
   def project do
     [
       app: :highlander,
-      version: "0.2.1",
+      version: "0.2.2",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -36,7 +36,7 @@ defmodule Highlander.MixProject do
       description: "There can only be one! (process in your cluster)",
       licenses: ["MIT"],
       maintainers: ["Derek Kraan"],
-      links: %{GitHub: "https://github.com/derekkraan/highlander"}
+      links: %{GitHub: "https://github.com/drumusician/highlander"}
     ]
   end
 
